@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&display=swap');
+
+
+
+body{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+
+.section{
+	padding:5% 0;
+}
+
+.titulo{
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+.navbar-brand{
+	height: 90px;
+}
+.navbar-brand img{
+	height: 60px;
+	margin-top: 10px;
+}
+.subtitulo{
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #fff !important;
+}
+.header-area.sticky .navbar-light .navbar-nav .nav-link{
+	color: var(--color-negro);
+}
+
+
+form{
+	background-color: #000;
+}
+
+
+#hero{
+	background-image: url("../img/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 8%
+}
+
+
+#hero h1{
+	font-size: 70px;
+    font-weight: bolder;
+	text-align: center;
+}
+
+#hero h5{
+	font-size: 25px;
+	font-weight: normal;
+	text-align: center;
+}
+
+
+#etapas .container{
+	background-color: #A00800;
+	padding: 50px 50px;
+	border-radius: 10px;
+}
+
+#crew .container{
+	background-color: #A00800;
+	padding: 50px 50px;
+	border-radius: 10px;
+}
+
+#festivales .container{
+	background-color: #A00800;
+	padding: 50px 50px;
+	border-radius: 10px;
+}
+
+#fundadores .container{
+	background-color: #A00800;
+	padding: 50px 50px;
+	border-radius: 10px;
+}
+
+#etapas{
+	text-align: center;
+}
+
+#crew{
+	text-align: center;
+}
+
+#festivales{
+	text-align: center;
+}
+
+#fundadores{
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+}
+
+footer i{
+	font-size: 30px;
+}
