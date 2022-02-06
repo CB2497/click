@@ -130,3 +130,12 @@ footer{
 footer i{
 	font-size: 30px;
 }
+
+.zoom{
+	transform: scale(1);
+	transition: all 0.5s ease-in-out;
+}
+.zoom:hover{
+transform: scale(1.20);
+transition: all 0.5s ease-in-out;
+	}
